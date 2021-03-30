@@ -1,0 +1,117 @@
+/* 
+Derek Waggle
+COSC 365
+
+movie.css
+This file helps to format any HTML file with movie contents
+ */
+
+
+
+body {
+	background-image: url('images/background.png'); 
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+.banner {
+	width: 100%;
+	background-image: url('images/bannerbackground.png');
+	background-size: 100%;
+	text-align: center;
+	height: 50px;
+}
+
+.title {
+	text-align: center;
+	font-size: 24pt;
+	/* text-shadow: 3px 3px #999999; */
+}
+
+main {
+	width: 800px;
+	margin: auto;
+	border: 4px solid gray;
+	border-radius: 5px;
+	overflow: hidden;
+	background-image: url('images/background.png');
+}
+
+.column1 {
+	float: left;
+	width: 47%;
+	margin-right: 1%;
+	margin-left: 2%;
+}
+
+ .column2 {
+	float:right;
+	width: 47%;
+	margin-left: 1%;
+	margin-right: 2%;
+}
+
+
+.left {
+  float: left;
+  width: 550px;
+}
+
+.right {
+  float: right;
+  width: 250px;
+}
+
+.rating {
+	width: 800px;
+	background-image: url('images/rottenbackground.png');
+	color: red;
+	font-size: 48pt;
+	vertical-align: middle;
+	height: 83px;
+	border: 4px solid gray;
+}
+
+.tomatoimg {
+	height: 83px;
+	vertical-align: top;
+}
+
+.review {
+	font-size: 8pt;
+	background-color: #E1D697;
+	border: 2px solid gray;
+	font-weight: bold;
+	padding: 8px;
+	border-spacing: 8px;
+}
+
+.critic {
+	font-size: 8pt;
+	padding: 5px;
+	border-spacing: 8px;
+}
+
+
+.overview {
+	float: right;
+	font-family: arial;
+	width: 250px;
+	font-size: 8pt;
+	background: #A2B964;
+	height: 100%;
+
+}
+
+.img {
+	width: 100%;
+	float: right;
+}
+
+.pageNumber {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	overflow:hidden;
+	background-color: #A2B964;
+}
